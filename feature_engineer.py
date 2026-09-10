@@ -1,6 +1,6 @@
 """
 Feature Engineering Module for FinTech Guardian (Phase 2)
-Author: Student Name
+Author: Renita Parumal
 Date: September 2026
 
 This script executes context-aware feature engineering including financial strain
