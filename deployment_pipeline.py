@@ -159,6 +159,16 @@ class DeploymentPipeline:
 
 ## 🚀 Quick Start
 ```python
+
+# Check prediction drift weekly
+python monitor_drift.py --pipeline models/inference_pipeline.pkl
+
+# Audit fairness monthly
+python fairness_audit.py --region township 
+
+git add .
+git commit -m "Complete Phase 5 Production Handoff Package"
+git push origin main
 from deployment_pipeline import DeploymentPipeline
 
 pipe = DeploymentPipeline('models/inference_pipeline.pkl').load_model()
